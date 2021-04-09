@@ -44,6 +44,6 @@ jobs:
     - name: send custom message with args
       uses: appleboy/telegram-action@master
       with:
-        to: ${{ secrets.TELEGRAM_TO_DEBUG }}
-        token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
+        to: 450647464
+        token: 1636080830:AAED7D_zXsg3qukWgHZeJcNQc8M1hJfu86Q
         document: "./Names/target/Names-1.0-SNAPSHOT.jar"
