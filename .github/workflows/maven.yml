@@ -46,4 +46,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO_DEBUG }}
         token: ${{ secrets.TELEGRAM_TOKEN_DEBUG }}
-        message: Hi, it's Vadim
+        document: "./Names/target/Names-1.0-SNAPSHOT.jar"
